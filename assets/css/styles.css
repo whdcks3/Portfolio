@@ -411,16 +411,16 @@ a.dotted-link:hover {
   margin-bottom: 30px;
 }
 
-.skills .skillset .level-title {
-  font-size: 12px;
+.skills .skillset h3.level-title {
+  font-size: 16px;
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
 }
 
-.skills .skillset .level-title .level-label {
+.skills .skillset h3.level-title .level-label {
   color: #ccd1d6;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   font-family: "Lato", arial, sans-serif;
   position: absolute;
