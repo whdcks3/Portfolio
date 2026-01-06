@@ -403,6 +403,20 @@ a.dotted-link:hover {
 }
 
 /* Skills Section */
+
+.level-bar {
+  height: 15px;
+  background: #e8e8e8;
+  overflow: hidden;
+}
+
+.level-bar-inner {
+  height: 100%;
+  width: 0;              /* 초기값 */
+  background: #66cb8c;   /* 초록색 */
+  display: block;        /* ← 이게 핵심 */
+}
+
 .skills .intro {
   margin-bottom: 30px;
 }
@@ -831,7 +845,7 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
-html::before{
+/* html::before{
   content:"STYLES.CSS LOADED";
   position:fixed;
   top:0; left:0;
@@ -840,4 +854,4 @@ html::before{
   color:#fff;
   z-index:999999;
   font-size:14px;
-}
+} */
