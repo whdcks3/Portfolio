@@ -4,7 +4,15 @@
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
+if (!localStorage.getItem('theme')) {
+  localStorage.setItem('theme', 'dark');
+  document.body.setAttribute('data-theme', 'dark');
 
+  const darkSwitch = document.getElementById('darkSwitch');
+  if (darkSwitch) {
+    darkSwitch.checked = true;
+  }
+}
 /* Vanilla RSS - https://github.com/sdepold/vanilla-rss */
 
 	const rss = new RSS(
