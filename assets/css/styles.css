@@ -444,8 +444,8 @@ a.dotted-link:hover {
   top: 0;
 }
 
-.skills .skillset .progress {
-  --bs-progress-bar-bg: #66cb8c;
+.progress-bar {
+  background-color: mediumseagreen !important;
 }
 
 /* Testimonials section */
