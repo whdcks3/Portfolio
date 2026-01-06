@@ -444,6 +444,10 @@ a.dotted-link:hover {
   top: 0;
 }
 
+.skills .skillset .progress-bar.level-bar-inner {
+  background-color: #66cb8c !important;
+}
+
 /* Testimonials section */
 .testimonials .item {
   margin-bottom: 30px;
