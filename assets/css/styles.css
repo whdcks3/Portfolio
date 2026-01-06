@@ -831,3 +831,13 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+html::before{
+  content:"STYLES.CSS LOADED";
+  position:fixed;
+  top:0; left:0;
+  padding:6px 10px;
+  background:#ff00ff;
+  color:#fff;
+  z-index:999999;
+  font-size:14px;
+}
