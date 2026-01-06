@@ -413,29 +413,30 @@ a.dotted-link:hover {
 
 .skills .skillset .level-title {
   font-size: 16px;
-  position: relative;
-  margin-top: 0;
-  margin-bottom: 10;
+  font-weight: 600;
+  color: #cfd8dc;
+  margin-bottom: 10px;
 }
 
+/* Expert / Intermediate 라벨 */
 .skills .skillset .level-title .level-label {
-  color: #ccd1d6;
   font-size: 14px;
-  font-weight: 400;
-  font-family: "Lato", arial, sans-serif;
-  position: absolute;
-  right: 0;
-  top: 0;
+  color: #ccd1d6;
 }
 
-.skills .skillset .level-bar {
+/* 🔥 Bootstrap progress 덮어쓰기 */
+.skills .skillset .level-bar.progress {
   height: 15px;
-  background: #e8e8e8;
+  background-color: #2b2f33 !important; /* 어두운 바 배경 */
+  border-radius: 3px;
+  overflow: hidden;
 }
 
+/* 🔥 초록색 바 */
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background-color: #66cb8c !important; /* 원래 초록색 */
+  border-radius: 3px;
 }
 
 .skills .svg-inline--fa {
