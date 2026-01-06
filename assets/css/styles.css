@@ -404,19 +404,6 @@ a.dotted-link:hover {
 
 /* Skills Section */
 
-.level-bar {
-  height: 15px;
-  background: #e8e8e8;
-  overflow: hidden;
-}
-
-.level-bar-inner {
-  height: 100%;
-  width: 0;              /* 초기값 */
-  background: #66cb8c;   /* 초록색 */
-  display: block;        /* ← 이게 핵심 */
-}
-
 .skills .intro {
   margin-bottom: 30px;
 }
@@ -425,14 +412,14 @@ a.dotted-link:hover {
   margin-bottom: 30px;
 }
 
-.skills .skillset h3.level-title {
+.skills .skillset .level-title {
   font-size: 16px !important;
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
 }
 
-.skills .skillset h3.level-title .level-label {
+.skills .skillset .level-title .level-label {
   color: #ccd1d6 !important;
   font-size: 14px !important;
   font-weight: 400 !important;
@@ -445,11 +432,13 @@ a.dotted-link:hover {
 .skills .skillset .level-bar {
   height: 15px;
   background: #e8e8e8;
+  overflow: hidden;
 }
 
 .skills .skillset .level-bar-inner {
   height: 15px;
   background: #66cb8c;
+  display: block;
 }
 
 .skills .svg-inline--fa {
