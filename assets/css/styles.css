@@ -402,7 +402,27 @@ a.dotted-link:hover {
   margin-bottom: 0;
 }
 
+/* icon Section */
+.tech-icon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tech-icon img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -4px;
+}
+
+.tech-label {
+  font-size: 13px;
+  color: #d6dce8; 
+}
+
 /* Skills Section */
+
 .skills .intro {
   margin-bottom: 30px;
 }
